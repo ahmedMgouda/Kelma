@@ -11,10 +11,10 @@ A Real Time Chat Application built using Node.js, Express, Mongoose, Socket.io, 
    * Logging Errors and Exceptions using Winston.</br>
 </p>
 <h2> New Feature I still working on </h2>
-    + Implement voice and video call using webRTC 
-    + Implement Sending and receaving files.
-    + Implement share screen.
-    + Implemtnt Loging using social networks.
+    + Implement voice and video call using webRTC.</br>
+    + Implement Sending and receaving files.</br>
+    + Implement share screen.</br>
+    + Implemtnt Loging using social networks.</br>
 <h2>Installation</h2>
 Running Locally
 
