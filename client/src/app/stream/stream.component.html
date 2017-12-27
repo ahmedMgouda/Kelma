@@ -1,0 +1,17 @@
+<h3>Username: {{ username }}</h3>
+<!-- Videos -->
+<div class="row">
+    <div class="col-xs-12">
+        <video #remoteVideo class="remoteVideo"></video>
+    </div>
+    <div class="col-xs-12">
+        <video #localVideo class="localVideo"></video>
+    </div>
+</div>
+<!-- Buttons  -->
+<div class="row">
+    <div class="col-xs-12">
+        <button *ngIf="!playing" (click)="call()" class="btn btn-primary">Call</button>
+        <button *ngIf="playing" (click)="stop()" class="btn btn-primary">Stop</button>
+    </div>
+</div>

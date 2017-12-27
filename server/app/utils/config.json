@@ -1,0 +1,34 @@
+{
+	"db": {
+		"username": "admin",
+		"password": "mean",
+		"host": "127.0.0.1",
+		"port": "27017",
+		"name": "mean"
+	},
+	"jwt":{
+		"secret": "MyS3cr3tK3Y",
+		"session": {
+	    	"session": false
+		},
+		"expiresIn": 600000
+	},
+	"sessionSecret": "<RandomString>",
+	"facebook": {
+		"clientID": "243291986204417",
+		"clientSecret": "2dc9bda3d18e0666617f5959ae1b2505",
+		"callbackURL": "/auth/facebook/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"twitter": {
+		"consumerKey": "<ConsumerKey>",
+		"consumerSecret": "<ConsumerSecret>",
+		"callbackURL": "/auth/twitter/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"redis": {
+		"host": "127.0.0.1",
+		"port": 6379,
+		"password": ""
+	}
+}
