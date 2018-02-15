@@ -15,8 +15,8 @@
 	},
 	"sessionSecret": "<RandomString>",
 	"facebook": {
-		"clientID": "243291986204417",
-		"clientSecret": "2dc9bda3d18e0666617f5959ae1b2505",
+		"clientID": "",
+		"clientSecret": "",
 		"callbackURL": "/auth/facebook/callback",
 		"profileFields": ["id", "displayName", "photos"]
 	},
